@@ -53,9 +53,9 @@ if uploaded_file is not None:
     st.markdown("<h3>클래스별 확률:</h3>", unsafe_allow_html=True)
 
     if prediction == labels[0]:
-         st.write("중냉 꿋굿")
+         st.write("중냉의 맛을 모르겠어")
     elif prediction == labels[1]:
-         st.write("짜장면은 굿")
+         st.write("짜장면은 너무 맛있어!")
     elif prediction == labels[2]:
          st.write("짬뽕은 맵지만 맛있어!!")
 
